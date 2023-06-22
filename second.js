@@ -5,7 +5,7 @@ function balancedParens(string) {
     for(let i=0;i<string.length;i++){
         if(string[i] == "("||string[i] == "{"||string[i] == "["){
             stack.push(string[i]);
-            continue;
+            continue;  // continue statement
         }
 
         if(stack.length == 0){
